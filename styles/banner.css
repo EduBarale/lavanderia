@@ -1,0 +1,45 @@
+.card {
+    background-color: var(--cor-quintenaria);
+    color: var(--cor-principal);
+    border-radius: 10px;
+}
+
+.card__descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.descricao__imagem {
+    width: 50vw;
+    border-radius: 10px;
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .descricao__imagem {
+        width: 25vw;
+        margin-left: auto;
+        max-width: 50%;
+    }
+
+    .card__descricao {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .descricao {
+        margin-right: auto;
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .descricao__imagem {
+        width: 25vw;
+    }
+}

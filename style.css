@@ -1,0 +1,24 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/middle.css);
+@import url(styles/contact.css);
+@import url(styles/form.css);
+@import url(styles/footer.css);
+
+:root {
+    --cor-principal: #E6E2D9;
+    --cor-secundaria: #F2DAC4;
+    --cor-terciaria: #D99E6A;
+    --cor-quartenaria: #8C451C;
+    --cor-quintenaria:#BF613F;
+    --fonte-principal: 'Cabin', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+

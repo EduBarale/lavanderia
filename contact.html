@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header class="cabecalho"> 
+        <div class="cabecalho__container">
+            <h1 class="cabecalho__titulo">Lavanderia Trancoso</h1>
+            <nav class="cabecalho__navegacao">
+                <ul class="cabecalho__lista">
+                    <li class="cabecalho__item"><a href="index.html" class="cabecalho__link">Sobre nós</a></li>
+                    <li class="cabecalho__item"><a href="contact.html" class="cabecalho__link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contact">
+        <h2 class="contact__titulo">Entre em contato</h2>
+        <p class="contact__texto">Você também pode nos encontrar nas redes sociais:</p>
+        <div class="contact__social">   
+            <a class="contact__social__media" href="https://www.instagram.com/laundromat.trancoso/" target="_blank">Instagram</a>
+            <a class="contact__social__media" href="https://api.whatsapp.com/send/?phone=5573998017213&text&type=phone_number&app_absent=0" target="_blank">Whatsapp</a>
+        </div>
+        <img class="contact__imagem" src="assets/pexels-cottonbro-5854032.jpg" alt="Lavanderia Trancoso">
+    </section>
+
+    <section class="form">
+        <p class="form__texto">Se você tiver alguma dúvida ou precisar de mais informações, entre em contato conosco.</p>
+        <form class="form__questionario" action="send-email.php" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required class="form__input">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required class="form__input">
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required class="form__input"></textarea>
+            <button type="submit" class="form__botao">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="rodape">
+        <ul class="rodape__lista">
+            <li class="rodape__lista__item">
+                <a class="rodape__link" href="#">Política de privacidade</a>
+            </li>
+            <li class="rodape__lista__item">
+                <a class="rodape__link" href="#">Termos de uso</a>
+            </li>
+            <li class="rodape__lista__item">
+                <a class="rodape__link" href="#">Ajuda</a>
+            </li>
+            <li class="rodape__lista__item">
+                <a class="rodape__link" href="#">Proteção de dados no Brasil</a>
+            </li>
+        </ul>
+        <p class="rodape__copyright">© 2024 Lavanderia Trancoso. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

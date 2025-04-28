@@ -1,0 +1,32 @@
+.rodape {
+    color: var(--cor-quintenaria);
+    border-top: 1px solid var(--cor-quartenaria);
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.rodape__lista__item {
+    margin: 0 0.5em 0.25em 0.5em;
+}
+
+.rodape__link {
+    text-decoration: none;
+    color: var(--cor-quintenaria);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.rodape__copyright {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0.25em;
+    color: var(--cor-quintenaria);
+}
