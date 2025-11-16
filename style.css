@@ -22,3 +22,11 @@ body {
     font-weight: 400;
 }
 
+.mensagem-resultado {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #1b6d1b;
+  background-color: #e3ffe3;
+}
