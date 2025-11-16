@@ -35,22 +35,22 @@
 
     <section class="form">
         <p class="form__texto">Se você tiver alguma dúvida ou precisar de mais informações, entre em contato conosco.</p>
-        <form action="https://formspree.io/f/xyzllgnk" method="POST">
+        <form id="contact-form" class="meu-formulario" action="https://formspree.io/f/{id}" method="POST">
             <label>
                 Nome:
-                <input type="text" name="name" required>
+                <input type="text" name="name" class="campo-input" required>
             </label>
             <label>
                 E-mail:
-                <input type="email" name="email" required>
+                <input type="email" name="email" class="campo-input" required>
             </label>
             <label>
                 Mensagem:
-                <textarea name="message" required></textarea>
+                <textarea name="message" class="campo-textarea" required></textarea>
             </label>
-            <button type="submit">Enviar</button>
+            <button type="submit" class="botao-enviar">Enviar</button>
         </form>
-        <div id="form-message"></div>
+        <div id="form-message" class="mensagem-resultado"></div>
         <script>
             document.getElementById('contact-form').addEventListener('submit', async function(event) {
                 event.preventDefault();
@@ -92,5 +92,6 @@
 </body>
 
 </html>
+
 
 
